@@ -1,1 +1,13 @@
-
+Sub ConverterTextoParaNumero()
+    Dim texto As String
+    Dim numero As Double
+    
+    ' Defina o texto que deseja converter
+    texto = "123.45"
+    
+    ' Use a função Val para converter o texto em um número
+    numero = Val(texto)
+    
+    ' Exiba o resultado
+    MsgBox "O número convertido é: " & numero
+End Sub
